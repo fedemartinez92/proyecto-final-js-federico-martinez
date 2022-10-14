@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "marca": "StarNutrition",
+        "tipo": "Creatina",
+        "precio": 900,
+        "imagen": "creatina.jpg"
+    },
+    {
+        "id": 2,
+        "marca": "MyProtein",
+        "tipo": "Creatina",
+        "precio": 1200, 
+        "imagen": "creatinamy.jpg"
+    },
+    {
+        "id": 3,
+        "marca": "StarNutrition",
+        "tipo": "Proteina",
+        "precio": 4500,
+        "imagen": "proteina.jpg"
+    },
+    {
+        "id": 4,
+        "marca": "MyProtein",
+        "tipo": "Proteina", 
+        "precio": 3500, 
+        "imagen": "proteinamy.jfif"
+    },
+    {
+        "id": 5,
+        "marca": "StarNutrition", 
+        "tipo": "Quemador",
+        "precio": 2200, 
+        "imagen": "quemador.jpg"
+    },
+    {
+        "id": 6,
+        "marca": "MyProtein", 
+        "tipo": "Quemador", 
+        "precio": 2900, 
+        "imagen": "quemadormy.jfif"
+    },
+    {
+        "id": 7,
+        "marca": "GenTech",
+        "tipo": "Proteina",
+        "precio": 3000, 
+        "imagen": "proteinagen.jpg"
+    },
+    {
+        "id": 8,
+        "marca": "GenTech",
+        "tipo": "Creatina",
+        "precio": 850, 
+        "imagen": "creatinagen.jfif"
+    },
+    {
+        "id": 9,
+        "marca": "GenTech", 
+        "tipo": "Quemador", 
+        "precio": 3250, 
+        "imagen": "quemadorgen.jfif"
+    }
+    
+]
