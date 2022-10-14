@@ -57,7 +57,6 @@ function agregarAlCarrito(productos){
         title: 'Producto agregado al carrito'
         })
     }else{
-        console.log(productos.tipo)
         Swal.fire({
             title: "Producto ya agregado",
             text: `La ${productos.tipo} de la marca ${productos.marca} ya se encuentra en el carrito`,
