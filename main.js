@@ -113,11 +113,20 @@ function cargarProductosCarrito(array){
     
     //BOTON FINALIZAR COMPRA
     btnFinalizarCompra.addEventListener("click", ()=>{
-            if (productosEnCarrito.length >= 1){Swal.fire(
+            if (productosEnCarrito.length >= 1){
+            //ALERTA DE COMPRA EXITOSA
+            Swal.fire(
             'Su compra fue realizada',
             '',
-            'success'
-        )}else{
+            'success',
+            )
+            //LIMPIA EL CARRITO        
+            productosEnCarrito = [],
+            localStorage.removeItem("productosEnCarrito"),
+            cargarProductosCarrito(productosEnCarrito)}
+
+            else{
+            //ALERTA DE QUE NO SE PUEDE REALIZAR LA COMPRA
             Swal.fire({
                 icon: 'error',
                 title: 'Lo sentimos',
